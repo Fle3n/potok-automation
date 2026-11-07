@@ -1,0 +1,14 @@
+{
+  "name": "potok-automation",
+  "version": "3.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Журнал заявок с поиском, статусами и историей, разбор обращения, конструктор брифа, калькулятор времени и помощник по проекту.",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "start": "node server.mjs",
+    "check": "node --check server.mjs && node --check public/app.js && node --test tests/logic.test.mjs"
+  }
+}
